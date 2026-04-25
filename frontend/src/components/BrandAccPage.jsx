@@ -201,7 +201,7 @@ export default function BrandAccPage() {
             {/* DATA ROWS */}
             {filteredAndSortedData.map((item, idx) => {
               // Find original index for editing
-              const originalIndex = data.findIndex(d => d.Brand === item.Brand && d.Branch === item.Branch);
+              const originalIndex = data.indexOf(item);
               const isEditing = editIndex === originalIndex;
               
               return (

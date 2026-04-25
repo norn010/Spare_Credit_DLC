@@ -198,7 +198,7 @@ export default function ComExPage() {
 
             {/* DATA ROWS */}
             {filteredAndSortedData.map((item, idx) => {
-              const originalIndex = data.findIndex(d => d.Brand === item.Brand && d.Branch === item.Branch);
+              const originalIndex = data.indexOf(item);
               const isEditing = editIndex === originalIndex;
               
               return (
