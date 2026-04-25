@@ -9,10 +9,7 @@ CREATE TABLE Brand_Acc_Tb (
     Shorts NVARCHAR(50),
     Acc1 NVARCHAR(20),
     Acc2 NVARCHAR(20),
-    Acc3 NVARCHAR(20),
-    Acc4 NVARCHAR(20),
-    Acc5 NVARCHAR(20),
-    Acc6 NVARCHAR(20),
+    Acc3 NVARCHAR(20)
 );
 
 -- สร้างตาราง Com_Ex_Tb
